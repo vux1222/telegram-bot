@@ -6,7 +6,7 @@ from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, Messa
 
 # ================= CẤU HÌNH =================
 # Token của bạn
-BOT_TOKEN = "8557130372:AAHfOG8GVILz_D5XOZYAMUZ2Qrx8dCuJ-6U"
+BOT_TOKEN = "8344403257:AAF0F3V3A29RLr6T1Rd9ZHdtTzby0IO67fM"
 # ============================================
 
 # Thiết lập ghi log
@@ -118,4 +118,5 @@ if __name__ == '__main__':
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_text_message))
     
     print("✅ Boss đã online! (Chế độ: Nhắn mã máy là có Key)")
+
     app.run_polling()
